@@ -265,6 +265,14 @@
       <outputDirectory>datax</outputDirectory>
     </fileSet>
 
+    <fileSet>
+      <directory>iotdbreader/target/datax-package/</directory>
+      <includes>
+        <include>**/*.*</include>
+      </includes>
+      <outputDirectory>datax</outputDirectory>
+    </fileSet>
+
     <!-- writer -->
     <fileSet>
       <directory>mysqlwriter/target/datax-package/</directory>
@@ -562,6 +570,13 @@
     </fileSet>
     <fileSet>
       <directory>milvuswriter/target/datax-package/</directory>
+      <includes>
+        <include>**/*.*</include>
+      </includes>
+      <outputDirectory>datax</outputDirectory>
+    </fileSet>
+    <fileSet>
+      <directory>iotdbwriter/target/datax-package/</directory>
       <includes>
         <include>**/*.*</include>
       </includes>
